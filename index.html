@@ -7,7 +7,27 @@
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
   <link rel="stylesheet" href="style.css">
         <title>The Solar Project by WebDextro</title>
-        
+         <style>
+        /* মোবাইল ডিভাইসে বার্তা দেখানোর জন্য */
+        #mobileMessage {
+            display: none;
+            background-color: #f8d7da;
+            color: #721c24;
+            padding: 20px;
+            text-align: center;
+            font-size: 18px;
+            border: 1px solid #f5c6cb;
+            border-radius: 5px;
+            margin: 20px;
+        }
+
+        /* মোবাইল ডিভাইসে পেজের বাকি অংশ হাইড */
+        @media only screen and (max-width: 768px) {
+            body {
+                overflow: hidden;
+            }
+        }
+    </style>
 </head>
 
  <!-- Popup Modal -->
